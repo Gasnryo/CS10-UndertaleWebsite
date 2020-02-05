@@ -8,15 +8,21 @@
 	body {
 		background-color: #2E0000;
 		background-image: url('Frisk.png');
-		background-repeat: none;
+		background-repeat: no-repeat;
+		background-position: center;
 	}
+	.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 	p,li {
 		color: white;
 		font-family: "Haettenschweiler";
 		font-size: 25pt;
 	}
 	a {
-		color: red;
+		color: white;
 	}
 	h1 {
 		color:white;
@@ -28,7 +34,7 @@
 		font-family: "Haettenschweiler";
 		font-size: 75pt;
 	}
-div {
+	div {
 		background-image: url('background2.png');
 		background-color: black;
 		border: 10px solid red;
@@ -40,12 +46,17 @@ div {
 		border-radius: 5px;
 		opacity: 0.9;
 		}
+	
+	a:hover {
+		background-color: yellow;
+		
+	}
 </style>
 </head>
 
 <body>
 <div>
-	<h1>H E A D E R</h1>
+	<h1>H E <font color="red">A</font> D E R</h1>
 		<p>	<font size="7">O</font>rci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed pellentesque blandit cursus. Phasellus condimentum maximus volutpat. In dui odio, rutrum a ante non, tempor elementum purus. Sed eleifend varius vehicula. Aliquam a sodales lacus, sed euismod orci.</p>
 	<h3>S U B H E A D E R 1</h3>
 		<p><font size="6">I</font>nterdum et malesuada fames ac ante ipsum primis in faucibus. Quisque finibus aliquam odio. Morbi id tristique diam, sit amet semper ex. Nulla tincidunt massa ac urna tristique tempor non vitae lectus.</p>
@@ -53,11 +64,12 @@ div {
 		<p><font size="6">N</font>am ut dictum erat, vitae feugiat lectus. Donec aliquet imperdiet tempor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vestibulum sollicitudin massa at quam auctor, ut egestas lectus convallis.</p>
 	<h3>S U B H E A D E R 3</h3>
 		<ul>
-			<li><a href="https://www.google.com/">Vestibulum sollicitudin</a></li>
-			<li><a href="https://www.google.com/">Nam ut dictum</a></li>
-			<li><a href="https://www.google.com/">Interdum et malesuada</a></li>
-			<li><a href="https://www.google.com/">Aliquam a sodales</a></li>
+			<li><a href="https://www.google.com/">Vestibulum sollicitudin</a><font color="red"> ❤</font></li>
+			<li><a href="https://www.google.com/">Nam ut dictum</a><font color="red"> ❤</font></li>
+			<li><a href="https://www.google.com/">Interdum et malesuada</a><font color="red"> ❤</font></li>
+			<li><a href="https://www.google.com/">Aliquam a sodales</a><font color="red"> ❤</font></li>
 		</ul>
+		<img src="heartold.png" alt="Missing Image!" height="600px" width="600px" class="center">
 </div>
 </body>
 
